@@ -1,17 +1,18 @@
 import { NavBarContainer } from "./styles"
+import logo from "../../assets/logo.png"
 
 export function NavBar() {
   return (
     <NavBarContainer>
       <div className="navBar">
         <div className="logo">
-          <img src="" alt="logo" />
+          <img src={logo} alt="logo" />
         </div>
         <div className="navBarMenu">
           <ul>
             <div className="liContainer">
               <div className="iconContainer">
-                <img src="" alt="" />
+              
               </div>
               <li>Identidade</li>
             </div>
