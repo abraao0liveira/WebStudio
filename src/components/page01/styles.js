@@ -5,7 +5,7 @@ export const Page01Container = styled.div`
   justify-content: center;
   align-items: center;
   height: 90vh;
-  background: ${(props) => props.theme['green-900']};
+  background: ${(props) => props.theme['gray-900']};
   color: ${(props) => props.theme['white']};
 
   .page01 {
