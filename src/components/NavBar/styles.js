@@ -10,7 +10,8 @@ export const NavBarContainer = styled.header`
 
   .navBar {
     display: flex;
-    margin: 0;
+    margin: 0 auto;
+    width: 90%;
   }
   .logo {
     align-items: center;
