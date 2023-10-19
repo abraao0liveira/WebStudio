@@ -35,6 +35,7 @@ export const NavBarContainer = styled.header`
       align-items: center;
       justify-content: end;
       margin: auto;
+      margin-top: 0.2rem;
       padding: 0;
       transition: all 0.5s ease-in-out;
 
@@ -56,9 +57,9 @@ export const NavBarContainer = styled.header`
         li{
           list-style: none;
           padding: 0.25rem;
-          margin: 0.4rem 0.5rem 0.4rem 0.1rem;
+          margin: 0.4rem 0.5rem 0.4rem -0.1rem;
           font-weight: bold;
-          font-size: 1rem;
+          font-size: 1.075rem;
         }
     }
     .iconContainer {

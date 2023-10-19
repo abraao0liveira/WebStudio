@@ -1,5 +1,5 @@
 import { NavBarContainer } from "./styles"
-import { Atom, Graph, Infinity, Intersect } from "phosphor-react";
+import { Graph, Infinity, Intersect } from "phosphor-react";
 
 export function NavBar() {
   return (
@@ -13,19 +13,13 @@ export function NavBar() {
           <ul>
             <div className="liContainer">
               <div className="iconContainer">
-                <Atom size={20} />
-              </div>
-              <li>Identidade</li>
-            </div>
-            <div className="liContainer">
-              <div className="iconContainer">
-                <Graph size={20} />
+                <Graph size={21} />
               </div>
               <li>Modelos</li>
             </div>
             <div className="liContainer">
               <div className="iconContainer">
-                <Infinity size={20} />
+                <Infinity size={21} />
               </div>
               <li>Contato</li>
             </div>
