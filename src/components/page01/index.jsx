@@ -1,8 +1,5 @@
 import { Page01Container } from "./styles"
-import v from "../../assets/imgg.svg"
 import video from "../../assets/video.gif"
-
-
 
 export function Page01() {
   return (
@@ -14,7 +11,7 @@ export function Page01() {
       
       <section>
       <div className="image">
-        <img src={video}alt="" />
+        <img className="movie" src={video}alt="video" />
         </div>
         <div id="banner" >
           <div className="BannerInspiracao">
