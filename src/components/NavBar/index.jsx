@@ -1,30 +1,31 @@
 import { NavBarContainer } from "./styles"
-import logo from "../../assets/logo.png"
+import { Atom, Graph, Infinity, Intersect } from "phosphor-react";
 
 export function NavBar() {
   return (
     <NavBarContainer>
       <div className="navBar">
         <div className="logo">
-          <img src={logo} alt="logo" />
+          <Intersect size={38} />
+          <h1><strong>Web</strong>Studio</h1>
         </div>
         <div className="navBarMenu">
           <ul>
             <div className="liContainer">
               <div className="iconContainer">
-              
+                <Atom size={20} />
               </div>
               <li>Identidade</li>
             </div>
             <div className="liContainer">
               <div className="iconContainer">
-                <img src="" alt="" />
+                <Graph size={20} />
               </div>
               <li>Modelos</li>
             </div>
             <div className="liContainer">
               <div className="iconContainer">
-                <img src="" alt="" />
+                <Infinity size={20} />
               </div>
               <li>Contato</li>
             </div>
