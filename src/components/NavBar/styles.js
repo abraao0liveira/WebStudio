@@ -1,9 +1,6 @@
 import styled from "styled-components";
 
 export const NavBarContainer = styled.header`
-  /* display: flex; */
-  /* justify-content: center;
-  align-items: center; */
   height: 10vh;
   background: ${(props) => props.theme['gray-900']};
   color: ${(props) => props.theme['white']};
@@ -37,12 +34,16 @@ export const NavBarContainer = styled.header`
       margin: auto;
       margin-top: 0.2rem;
       padding: 0;
-      transition: all 0.5s ease-in-out;
+    }
+  }
+  a {
+    text-decoration: none;
+    color: ${(props) => props.theme['white']};
+    transition: all 0.5s ease-in-out;
 
-      :hover {
-        background-color: ${(props) => props.theme['gray-800']};
-        transition: all 0.5s ease-in-out;
-      }
+    :hover {
+      background-color: ${(props) => props.theme['gray-800']};
+      transition: all 0.5s ease-in-out;
     }
   }
   .liContainer {
@@ -54,13 +55,13 @@ export const NavBarContainer = styled.header`
       align-items: center;
       justify-content: center;
 
-        li{
-          list-style: none;
-          padding: 0.25rem;
-          margin: 0.4rem 0.5rem 0.4rem -0.1rem;
-          font-weight: bold;
-          font-size: 1.075rem;
-        }
+      li{
+        list-style: none;
+        padding: 0.25rem;
+        margin: 0.4rem 0.5rem 0.4rem -0.1rem;
+        font-weight: bold;
+        font-size: 1.075rem;
+      }
     }
     .iconContainer {
       background-color: ${(props) => props.theme['gray-800']};
