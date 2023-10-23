@@ -16,15 +16,15 @@ export function Page01() {
         <div id="banner" >
           <div className="BannerInspiracao">
             <h1>Presença Online!</h1>
-            <p>Um site permite uma maior presença Online</p>
+            <p>Um site que permite uma maior presença Online para seus negócios.</p>
           </div>
           <div className="BannerInspiracao">
             <h1>Alcance Global!</h1>
-            <p>Com estratégias de Marketing digital o seu site atrairá pessoas de qualquer parte do mundo</p>
+            <p>Com estratégias de Marketing digital o seu site atrairá pessoas de qualquer parte do mundo.</p>
           </div>
           <div className="BannerInspiracao">
             <h1>Profissionalismo!</h1>
-            <p>Ter um site bem projetado e funcional transmite uma imagem de credibilidade e profissionalismo para os clientes</p>
+            <p>Um site bem projetado e funcional transmitindo uma imagem de credibilidade e profissionalismo para os clientes.</p>
           </div>
         </div>
       </section>
