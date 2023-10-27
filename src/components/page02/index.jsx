@@ -1,4 +1,5 @@
 import { Page02Container } from "./styles"
+import { CellSignalLow, CellSignalMedium, CellSignalHigh } from "@phosphor-icons/react";
 
 export function Page02() {
   return (
@@ -9,26 +10,29 @@ export function Page02() {
 
         <div className="boxes">
           <div className="box">
+            <CellSignalLow size={32} />
             <h2>Página Única</h2>
             <h4>R$980,00</h4>
             <p>Um site com página única, ideal para promover um produto ou eventos.</p>
           </div>
 
           <div className="box">
+            <CellSignalMedium size={32} />
             <h2>Site de Négocios</h2>
             <h4>R$1360,00</h4>
             <p>Um site com 3 páginas, ideal para promover sua empresa e produtos.</p>
             <p>Página extra <strong>+ R$299,90</strong></p>
-            <p>Suporte <strong>+ 199,90/mês</strong></p>
+            <p>Suporte <strong>+ R$199,90/mês</strong></p>
           </div>
           
           <div className="box">
+            <CellSignalHigh size={32} />
             <h2>Site NuvemShop</h2>
             <h4>R$2830,00</h4>
             <p>Um site criado por meio da plataforma NuvemShop, ideal para vendas.</p>
             <p>+ 3 produtos adicionados.</p>
             <p>+ Mentoria ensinando utilizar a plataforma.</p>
-            <p>Suporte <strong>+ 199,90/mês</strong></p>
+            <p>Suporte <strong>+ R$199,90/mês</strong></p>
           </div>
         </div>
 

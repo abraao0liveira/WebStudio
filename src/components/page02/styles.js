@@ -29,11 +29,9 @@ export const Page02Container = styled.div`
   }
 
   .boxes {
-    width: 75%;
-    height: 70%;
+    width: 80%;
+    height: 60%;
     display: flex;
-    justify-content: center;
-    align-items: center;
     background: linear-gradient( to bottom, 
       ${(props) => props.theme['green-600']},
       ${(props) => props.theme['green-800']}, 
@@ -45,25 +43,24 @@ export const Page02Container = styled.div`
     border-radius: 15px;
 
     .box {
+      width: 100%;
       display: flex;
       flex-direction: column;
-      justify-content: center;
       align-items: center;
-      margin: 0 1rem;
+      margin: 0rem 1rem 0rem 0rem;
 
       h2 {
+        margin: 0.5rem 0rem 0.65rem 0rem;
         font-size: 1.18rem;
-        margin-bottom: 0.5rem;
       }
       h4 {
         font-size: 0.95rem;
-        text-align: center;
         margin-bottom: 0.75rem;
       }
       p {
+        margin: 0.18rem 0rem 0.2rem 0rem;
         font-size: 0.95rem;
         text-align: center;
-        margin-bottom: 0.25rem;
       }
     }
   }
