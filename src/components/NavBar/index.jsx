@@ -1,6 +1,6 @@
 import { NavBarContainer } from "./styles"
 import { useRef, useState } from "react"
-import { Graph, Infinity, Intersect } from "phosphor-react"
+import { Graph, Infinity, Intersect } from "@phosphor-icons/react";
 
 export function NavBar() {
   const handleClick = (event) => {
