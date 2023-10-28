@@ -24,11 +24,11 @@ export const Page02Container = styled.div`
     margin-right: auto;
     text-align: center;
     strong {
-      color: ${(props) => props.theme['green-600']};
+      color: ${(props) => props.theme['green-400']};
     }
   }
 
-  .boxes {
+  /* .boxes {
     width: 80%;
     height: 60%;
     display: flex;
@@ -63,5 +63,95 @@ export const Page02Container = styled.div`
         text-align: center;
       }
     }
+  
+  } */
+  
+  .boxes {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    /* margin: 5px;
+    padding: 10px;
+    height: 400px;
+    width: 900px; */
+
+    .box {
+      position: relative;
+      width: 30%;
+      height: 400px;
+      width: 350px;
+      background: linear-gradient( to bottom, 
+      ${(props) => props.theme['green-600']},
+      ${(props) => props.theme['green-800']}, 
+      ${(props) => props.theme['green-900']}); ;
+      border-radius: 30px;
+      padding: 20px;
+     
+      align-items: center;
+    
+        h2{
+         
+          padding-bottom: 10px;
+          
+        }
+        h4{
+          padding-bottom: 10px;
+          color: ${(props) => props.theme['green-200']};
+        }
+        ul{
+          padding: 10px;
+        }
+        li{
+          padding: 10px;
+          text-decoration: none;
+          list-style: none;
+        }
+        
+        .btn{
+          padding: 5px;
+          width: 250px;
+          background-color: ${(props) => props.theme['gray-800']};
+          color: ${(props) => props.theme['white']};
+          border-radius: 10px;
+          /* align-items: center;
+          justify-content: center;
+          display: flex;
+          margin: auto;
+          margin-top: 10px; */
+          position: absolute;
+          bottom: 10px;
+          display: flex;
+          justify-content: center;
+          margin: auto;
+          align-items: center;
+          left: 0;
+          right: 0;
+          
+          
+        }
+      
+          a{
+            text-decoration: none;
+            color: ${(props) => props.theme['white']};
+            background-color: ${(props) => props.theme['green-400']};
+            
+          }
+        /* button{
+          padding: 5px;
+          width: 150px;
+          background-color: ${(props) => props.theme['green-400']};
+          color: ${(props) => props.theme['white']};
+          border-radius: 15px;
+          align-items: center;
+          justify-content: center;
+          display: flex;
+          margin: auto;
+          margin-top: 10px;
+        } */
+    }
+    
+  
   }
+ 
+  
 `
