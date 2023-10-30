@@ -12,7 +12,7 @@ export function Page02() {
           <div className="box">
             <CellSignalLow size={32} />
             <h2>Página Única</h2>
-            <h4>R$ 980,00</h4>
+            <h4>R$ 980,00<p>&nbsp;/site</p></h4>
             <ul>
               <li> <Check size={15} /> Site página única, </li>
               <li><Check size={15} /> Ideal para promover um produto ou eventos</li>
@@ -26,7 +26,7 @@ export function Page02() {
           <div className="box">
             <CellSignalMedium size={32} />
             <h2>Site de Négocios</h2>
-            <h4>R$ 1.360,00</h4>
+            <h4>R$ 1.360,00<p>&nbsp;/site</p></h4>
             <ul>
               <li><Check size={15} /> Site com 3 páginas</li>
               <li><Check size={15} /> Ideal para promover sua empresa e produtos</li>
@@ -45,7 +45,7 @@ export function Page02() {
           <div className="box">
             <CellSignalHigh size={32} />
             <h2>Site NuvemShop</h2>
-            <h4>R$ 2.830,00</h4>           
+            <h4>R$ 2.830,00<p>&nbsp;/site</p></h4>           
             <ul>
               <li><Check size={15} /> Site de vendas criado por meio da plataforma NuvemShop</li>
               <li><Check size={15} /> + 3 produtos adicionados</li>

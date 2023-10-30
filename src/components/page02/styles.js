@@ -24,7 +24,7 @@ export const Page02Container = styled.div`
     margin-right: auto;
     text-align: center;
     strong {
-      color: ${(props) => props.theme['green-400']};
+      color: ${(props) => props.theme['green-600']};
     }
   }
 
@@ -90,13 +90,23 @@ export const Page02Container = styled.div`
       align-items: center;
     
         h2{
-         
+          
           padding-bottom: 10px;
+          font-size: 1rem;
           
         }
         h4{
           padding-bottom: 10px;
           color: ${(props) => props.theme['green-200']};
+          font-size: 1.5rem;
+          display: flex;
+
+          p{
+            display: flex;
+            font-size: 0.9rem;
+            color: ${(props) => props.theme['gray-400']};
+            line-height: 2.5;
+          }
         }
         ul{
           padding: 10px;
