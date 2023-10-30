@@ -39,11 +39,11 @@ export const NavBarContainer = styled.header`
   a {
     text-decoration: none;
     color: ${(props) => props.theme['white']};
-    transition: all 0.5s ease-in-out;
+    transition: all 0.3s ease-in-out;
 
     :hover {
       background-color: ${(props) => props.theme['gray-800']};
-      transition: all 0.5s ease-in-out;
+      transition: all 0.3s ease-in-out;
     }
   }
   .liContainer {
