@@ -27,146 +27,70 @@ export const Page02Container = styled.div`
       color: ${(props) => props.theme['green-200']};
     }
   }
-
-  /* .boxes {
-    width: 80%;
-    height: 60%;
-    display: flex;
-    background: linear-gradient( to bottom, 
-      ${(props) => props.theme['green-600']},
-      ${(props) => props.theme['green-800']}, 
-      ${(props) => props.theme['green-900']});
-    padding: 1.5rem;
-    margin-top: 3.5rem;
-    margin-left: auto;  
-    margin-right: auto;
-    border-radius: 15px;
-
-    .box {
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin: 0rem 1rem 0rem 0rem;
-
-      h2 {
-        margin: 0.5rem 0rem 0.65rem 0rem;
-        font-size: 1.18rem;
-      }
-      h4 {
-        font-size: 0.95rem;
-        margin-bottom: 0.75rem;
-      }
-      p {
-        margin: 0.18rem 0rem 0.2rem 0rem;
-        font-size: 0.95rem;
-        text-align: center;
-      }
-    }
-  
-  } */
-  
+   
   .boxes {
     margin-top: 50px;
     display: flex;
     justify-content: space-evenly;
-    /* margin: 5px;
-    padding: 10px;
-    height: 400px;
-    width: 900px; */
 
     .box {
       position: relative;
       width: 30%;
       height: 400px;
       width: 350px;
-      /* background: linear-gradient( to bottom, 
-      ${(props) => props.theme['green-600']},
-      ${(props) => props.theme['green-800']}, 
-      ${(props) => props.theme['green-900']}); ; */
       background: linear-gradient( to top, 
       ${(props) => props.theme['green-600']},
       ${(props) => props.theme['green-600']}, 
       ${(props) => props.theme['green-800']});
       border-radius: 30px;
       padding: 20px;
-     
       align-items: center;
-    
-        h2{
-          
-          padding-bottom: 10px;
-          font-size: 1rem; 
-          
-          
-        }
-        h4{
-          padding-bottom: 10px;
-          color: ${(props) => props.theme['green-200']};
-          font-size: 1.7rem;
-          display: flex;
 
-          p{
-            display: flex;
-            font-size: 0.9rem;
-            color: ${(props) => props.theme['gray-400']};
-            line-height: 2.5;
-          }
-        }
-        ul{
-          padding: 10px;
-        }
-        li{
-          padding: 10px;
-          text-decoration: none;
-          list-style: none;
-        }
-        
-        .btn{
-          padding: 5px;
-          width: 250px;
-          background-color: ${(props) => props.theme['gray-800']};
-          color: ${(props) => props.theme['white']};
-          border-radius: 10px;
-          /* align-items: center;
-          justify-content: center;
+      h2{  
+        padding-bottom: 10px;
+        font-size: 1rem; 
+      }
+      h4{
+        padding-bottom: 10px;
+        color: ${(props) => props.theme['green-200']};
+        font-size: 1.7rem;
+        display: flex;
+
+        p{
           display: flex;
-          margin: auto;
-          margin-top: 10px; */
-          position: absolute;
-          bottom: 10px;
-          display: flex;
-          justify-content: center;
-          margin: auto;
-          align-items: center;
-          left: 0;
-          right: 0;
-          
-          
+          font-size: 0.9rem;
+          color: ${(props) => props.theme['gray-400']};
+          line-height: 2.5;
         }
-      
-          a{
-            text-decoration: none;
-            color: ${(props) => props.theme['white']};
-            background-color: ${(props) => props.theme['green-400']};
-            
-          }
-        /* button{
-          padding: 5px;
-          width: 150px;
-          background-color: ${(props) => props.theme['green-400']};
-          color: ${(props) => props.theme['white']};
-          border-radius: 15px;
-          align-items: center;
-          justify-content: center;
-          display: flex;
-          margin: auto;
-          margin-top: 10px;
-        } */
+      }
+      ul{
+        padding: 10px;
+      }
+      li{
+        padding: 10px;
+        text-decoration: none;
+        list-style: none;
+      }
+      .btn{
+        padding: 5px;
+        width: 250px;
+        background-color: ${(props) => props.theme['gray-800']};
+        color: ${(props) => props.theme['white']};
+        border-radius: 10px;
+        position: absolute;
+        bottom: 10px;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        align-items: center;
+        left: 0;
+        right: 0; 
+      }
+      a{
+        text-decoration: none;
+        color: ${(props) => props.theme['white']};
+        background-color: ${(props) => props.theme['green-400']};
+      }
     }
-    
-  
   }
- 
-  
 `
