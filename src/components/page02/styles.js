@@ -24,7 +24,7 @@ export const Page02Container = styled.div`
     margin-right: auto;
     text-align: center;
     strong {
-      color: ${(props) => props.theme['green-600']};
+      color: ${(props) => props.theme['green-200']};
     }
   }
 
@@ -80,10 +80,14 @@ export const Page02Container = styled.div`
       width: 30%;
       height: 400px;
       width: 350px;
-      background: linear-gradient( to bottom, 
+      /* background: linear-gradient( to bottom, 
       ${(props) => props.theme['green-600']},
       ${(props) => props.theme['green-800']}, 
-      ${(props) => props.theme['green-900']}); ;
+      ${(props) => props.theme['green-900']}); ; */
+      background: linear-gradient( to top, 
+      ${(props) => props.theme['green-600']},
+      ${(props) => props.theme['green-600']}, 
+      ${(props) => props.theme['green-800']});
       border-radius: 30px;
       padding: 20px;
      
@@ -92,13 +96,14 @@ export const Page02Container = styled.div`
         h2{
           
           padding-bottom: 10px;
-          font-size: 1rem;
+          font-size: 1rem; 
+          
           
         }
         h4{
           padding-bottom: 10px;
           color: ${(props) => props.theme['green-200']};
-          font-size: 1.5rem;
+          font-size: 1.7rem;
           display: flex;
 
           p{
