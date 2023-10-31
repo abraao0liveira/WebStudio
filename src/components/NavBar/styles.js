@@ -43,6 +43,7 @@ export const NavBarContainer = styled.header`
 
     :hover {
       background-color: ${(props) => props.theme['gray-800']};
+      cursor: pointer;
       transition: all 0.3s ease-in-out;
     }
   }
@@ -51,6 +52,7 @@ export const NavBarContainer = styled.header`
       border-radius: 50px;
       padding: 0.15rem; 
       margin: 1.1rem;
+      margin-left: 0.2rem;
       display: flex;
       align-items: center;
       justify-content: center;
