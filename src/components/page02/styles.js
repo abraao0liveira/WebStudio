@@ -30,14 +30,14 @@ export const Page02Container = styled.div`
    
   .boxes {
     margin-top: 50px;
+    margin-bottom: 30px;
     display: flex;
     justify-content: space-evenly;
 
     .box {
       position: relative;
-      width: 30%;
-      height: 400px;
-      width: 350px;
+      height: 385px;
+      width: 330px;
       background: linear-gradient( to top, 
       ${(props) => props.theme['green-600']},
       ${(props) => props.theme['green-600']}, 
@@ -76,6 +76,7 @@ export const Page02Container = styled.div`
         width: 250px;
         background-color: ${(props) => props.theme['gray-800']};
         color: ${(props) => props.theme['white']};
+        border: none;
         border-radius: 10px;
         position: absolute;
         bottom: 10px;
@@ -84,12 +85,14 @@ export const Page02Container = styled.div`
         margin: auto;
         align-items: center;
         left: 0;
-        right: 0; 
+        right: 0;
+        transition: all 0.3s ease-in-out;
       }
-      a{
-        text-decoration: none;
+      .btn:hover {
+        background-color: ${(props) => props.theme['green-800']};
         color: ${(props) => props.theme['white']};
-        background-color: ${(props) => props.theme['green-400']};
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
       }
     }
   }
