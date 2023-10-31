@@ -14,7 +14,7 @@ export function Page02() {
             <h4>R$ 980,00<p>&nbsp;/site</p></h4>
             <ul>
               <li> <Check weight="bold" size={15} /> Site página única, </li>
-              <li><Check weight="bold" size={15} /> Ideal para promover um produto ou eventos</li>
+              <li><Check weight="bold" size={15} /> Ideal para promover um produto ou eventos.</li>
             </ul>
             <button type="submit" className="btn"><strong>Contratar</strong></button>
           </div>
@@ -23,10 +23,10 @@ export function Page02() {
             <h2>Site de Négocios</h2>
             <h4>R$ 1.360,00<p>&nbsp;/site</p></h4>
             <ul>
-              <li><Check weight="bold" size={15} /> Site com 3 páginas</li>
-              <li><Check weight="bold" size={15} /> Ideal para promover sua empresa e produtos</li>
-              <li><Plus weight="bold" size={15} /> Página extra <strong> por R$ 299,90</strong></li>
-              <li><Plus weight="bold" size={15} /> Suporte <strong> por R$ 199,90 /mês</strong></li>
+              <li><Check weight="bold" size={15} /> Site com 3 páginas.</li>
+              <li><Check weight="bold" size={15} /> Ideal para promover sua empresa e produtos.</li>
+              <li><Plus weight="bold" size={15} /> Página extra <strong> por R$ 299,90.</strong></li>
+              <li><Plus weight="bold" size={15} /> Suporte <strong> por R$ 199,90 /mês.</strong></li>
             </ul>
             <button type="submit" className="btn"><strong>Contratar</strong></button>
           </div>
@@ -35,10 +35,10 @@ export function Page02() {
             <h2>Site NuvemShop</h2>
             <h4>R$ 2.830,00<p>&nbsp;/site</p></h4>           
             <ul>
-              <li><Check weight="bold" size={15} /> Site de vendas criado por meio da plataforma NuvemShop</li>
-              <li><Check weight="bold" size={15} /> 3 produtos adicionados</li>
-              <li><Check weight="bold" size={15} /> Mentoria ensinando utilizar a plataforma</li>
-              <li><Plus weight="bold" size={15} /> Suporte <strong> por R$ 199,90/mês</strong></li>
+              <li><Check weight="bold" size={15} /> Site de vendas criado por meio da plataforma NuvemShop.</li>
+              <li><Check weight="bold" size={15} /> 3 produtos adicionados.</li>
+              <li><Check weight="bold" size={15} /> Mentoria: primeiros passos na plataforma.</li>
+              <li><Plus weight="bold" size={15} /> Suporte <strong> por R$ 199,90/mês.</strong></li>
             </ul>
             <button type="submit" className="btn"><strong>Contratar</strong></button>
           </div>
