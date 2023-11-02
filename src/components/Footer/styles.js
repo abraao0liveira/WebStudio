@@ -4,6 +4,6 @@ export const FooterContainer = styled.div`
   display: flex;
   align-items: center;
   height: 20vh;
-  background-color: ${(props) => props.theme['green-900']};
+  background-color: ${(props) => props.theme['gray-800']};
   color: ${(props) => props.theme['white']};
 `
