@@ -13,7 +13,7 @@ export function Page02() {
             <h2>Página Única</h2>
             <h4>R$ 980,00<p>&nbsp;/site</p></h4>
             <ul>
-              <li> <Check weight="bold" size={15} /> Site página única, </li>
+              <li> <Check weight="bold" size={15} /> Site página única.</li>
               <li><Check weight="bold" size={15} /> Ideal para promover um produto ou eventos.</li>
             </ul>
             <button type="submit" className="btn"><strong>Contratar</strong></button>
