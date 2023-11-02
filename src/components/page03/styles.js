@@ -2,10 +2,7 @@ import styled from "styled-components";
 import star1 from "../../assets/star1.png"
 
 export const Page03Container = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  height: 80vh;
   background-image: url(${star1});
   color: ${(props) => props.theme['white']};
 `
