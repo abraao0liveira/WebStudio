@@ -59,7 +59,7 @@ export const NavBarContainer = styled.header`
 
       li{
         list-style: none;
-        padding: 0.25rem;
+        padding: 0.15rem;
         margin: 0.4rem 0.5rem 0.4rem -0.1rem;
         font-weight: bold;
         font-size: 1.075rem;

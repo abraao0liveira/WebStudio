@@ -14,7 +14,7 @@ export function NavBar() {
 
       if (element) {
         const rect = element.getBoundingClientRect();
-        const targetOffset = rect.top + window.pageYOffset - headerHeight + 1
+        const targetOffset = rect.top + window.pageYOffset - headerHeight + 5
 
         window.scrollTo({
           behavior: 'smooth',
@@ -45,12 +45,12 @@ export function NavBar() {
                 <li>Modelos</li>
               </div>
             </a>
-            <a href="#contacts" onClick={handleClick}>
+            <a href="#projects" onClick={handleClick}>
               <div className="liContainer">
                 <div className="iconContainer">
                   <Infinity size={21} />
                 </div>
-                <li>Contato</li>
+                <li>Projetos</li>
               </div>
             </a>
           </ul>
