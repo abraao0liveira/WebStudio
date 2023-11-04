@@ -1,5 +1,5 @@
 import { FooterContainer } from "./styles"
-import { Intersect, InstagramLogo, WhatsappLogo } from "@phosphor-icons/react";
+import { Intersect, InstagramLogo, WhatsappLogo, CaretCircleUp } from "@phosphor-icons/react";
 
 export function Footer() {
   return (
@@ -21,18 +21,19 @@ export function Footer() {
             <a href="/"><InstagramLogo size={32} /></a>
             <a href="/"><WhatsappLogo size={32} /></a>
           </div>
+
+          <div>
+            <a href="#"><CaretCircleUp size={32} /></a>
+          </div>
         </div>
 
         <div className="form">
           <h1>Fale Conosco</h1>
           <form action="https://formsubmit.co/abraaooliveira.br@gmail.com" method="POST" className="form">
-            <label htmlFor="name">Nome</label>
             <input type="text" name="name" placeholder="Nome" id="name" required/>
 
-            <label htmlFor="email">Email</label>
             <input type="email" name="email" placeholder="Email" id="email" required/>
 
-            <label htmlFor="message">Mensagem</label>
             <textarea name="message" placeholder="Mensagem" id="message" required></textarea>
 
             <input type="hidden" name="_captcha" value="false"/>
@@ -42,15 +43,6 @@ export function Footer() {
           </form>
         </div>
       </div>
-
-      {/* <div className="socialMedia">
-        <div className="instagram">
-          <a href="/"><InstagramLogo size={32} />Instagram</a>
-        </div>
-        <div className="whatsApp">
-          <a href="/"><WhatsappLogo size={32} />WhatsApp</a>
-        </div>
-      </div> */}
     </FooterContainer>
   )
 }

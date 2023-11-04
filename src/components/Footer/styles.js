@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const FooterContainer = styled.div`
-  /* display: flex; */
   align-items: center;
   height: 50vh;
   background-color: ${(props) => props.theme['gray-800']};
@@ -23,15 +22,12 @@ export const FooterContainer = styled.div`
       h2{
         margin-bottom: 10px;
       }
-      a{
-      text-decoration: none;
-      color: ${(props) => props.theme['white']};
-      margin: 5px;
       
+      a{
+        text-decoration: none;
+        color: ${(props) => props.theme['white']};
+        margin: 5px;
       }
     }
-
-    
   }
-
 `
