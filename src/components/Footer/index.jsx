@@ -11,19 +11,15 @@ export function Footer() {
             <Intersect size={38} />
             <h1><strong>Web</strong>Studio</h1> 
           </div>
-  
-          <div className="paragrafo">
-            <p>O melhor lugar para desenvolver o site da sua empresa!</p>
-          </div>
 
           <div className="socialMedia">
             <h2>Siga-nos</h2>
-            <a href="/"><InstagramLogo size={32} /></a>
-            <a href="/"><WhatsappLogo size={32} /></a>
+            <a href="/"><InstagramLogo size={30} /></a>
+            <a href="/"><WhatsappLogo size={30} /></a>
           </div>
-
-          <div>
-            <a href="#"><CaretCircleUp size={32} /></a>
+          
+          <div className="copy">
+            <p>&copy; 2023 WebStudio. Todos os direitos reservados.</p>
           </div>
         </div>
 
@@ -41,6 +37,10 @@ export function Footer() {
               Enviar
             </button>
           </form>
+        </div>
+
+        <div className="arrow">
+          <a href="#"><CaretCircleUp size={38} /></a>
         </div>
       </div>
     </FooterContainer>
