@@ -38,10 +38,7 @@ export const Page02Container = styled.div`
       position: relative;
       height: 385px;
       width: 330px;
-      background: linear-gradient( to top, 
-      ${(props) => props.theme['green-600']},
-      ${(props) => props.theme['green-600']}, 
-      ${(props) => props.theme['green-800']});
+      background-color: ${(props) => props.theme['gray-800']};
       border-radius: 30px;
       padding: 20px;
       align-items: center;
@@ -70,29 +67,6 @@ export const Page02Container = styled.div`
         padding: 10px;
         text-decoration: none;
         list-style: none;
-      }
-      .btn{
-        padding: 5px;
-        width: 250px;
-        background-color: ${(props) => props.theme['gray-800']};
-        color: ${(props) => props.theme['white']};
-        border: none;
-        border-radius: 10px;
-        position: absolute;
-        bottom: 10px;
-        display: flex;
-        justify-content: center;
-        margin: auto;
-        align-items: center;
-        left: 0;
-        right: 0;
-        transition: all 0.3s ease-in-out;
-      }
-      .btn:hover {
-        background-color: ${(props) => props.theme['green-800']};
-        color: ${(props) => props.theme['white']};
-        cursor: pointer;
-        transition: all 0.3s ease-in-out;
       }
     }
   }

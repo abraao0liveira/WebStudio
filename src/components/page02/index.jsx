@@ -16,7 +16,6 @@ export function Page02() {
               <li> <Check weight="bold" size={15} /> Site página única.</li>
               <li><Check weight="bold" size={15} /> Ideal para promover um produto ou eventos.</li>
             </ul>
-            <button type="submit" className="btn"><strong>Contratar</strong></button>
           </div>
 
           <div className="box">
@@ -28,7 +27,6 @@ export function Page02() {
               <li><Plus weight="bold" size={15} /> Página extra <strong> por R$ 299,90.</strong></li>
               <li><Plus weight="bold" size={15} /> Suporte <strong> por R$ 199,90 /mês.</strong></li>
             </ul>
-            <button type="submit" className="btn"><strong>Contratar</strong></button>
           </div>
           
           <div className="box">
@@ -40,7 +38,6 @@ export function Page02() {
               <li><Check weight="bold" size={15} /> Mentoria: primeiros passos na plataforma.</li>
               <li><Plus weight="bold" size={15} /> Suporte <strong> por R$ 199,90/mês.</strong></li>
             </ul>
-            <button type="submit" className="btn"><strong>Contratar</strong></button>
           </div>
         </div>
 
