@@ -52,10 +52,7 @@ export const Page01Container = styled.div`
     margin: 10px;
     padding: 12px;
     border-radius: 25px;
-    background: linear-gradient( to bottom, 
-      ${(props) => props.theme['green-600']},
-      ${(props) => props.theme['green-800']}, 
-      ${(props) => props.theme['green-900']});
+    background-color: ${(props) => props.theme['gray-800']};
     h1 {
       font-size: 1.18rem;
       margin: 1rem 0rem 1.75rem 0rem;
