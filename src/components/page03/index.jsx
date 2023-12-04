@@ -1,6 +1,7 @@
 import { Page03Container } from "./styles"
 import igmLogo from "../../assets/igmLogo.png"
 import engemecLogo from "../../assets/engemecLogo.png"
+import bemQuererLogo from "../../assets/bemQuererLogo.png"
 
 export function Page03() {
   return (
@@ -16,7 +17,7 @@ export function Page03() {
           </div>
           <div className="webSite">
             <a href="https://bemquererdecora.com.br/" rel="noreferrer" target="_blank">
-              <img src={igmLogo} alt="logo-BemQuerer" />
+              <img src={bemQuererLogo} alt="logo-BemQuerer" />
             </a>
             <h2>BemQuerer Decora</h2>
           </div>
