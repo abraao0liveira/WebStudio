@@ -70,4 +70,33 @@ export const Page02Container = styled.div`
       }
     }
   }
+
+  @media screen and (max-width: 734px){
+    height: auto;
+
+    h1{
+      margin-top: 20px;
+      font-size: 1.6rem;
+      text-align: center;
+
+    }
+    h3{
+      width: 90%;
+      font-size: 1rem;
+    }
+    .boxes {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .box{
+        height: 50%;
+        width: 80%;
+        margin: 10px;
+      }
+      }
+      
+    }
+  
 `
