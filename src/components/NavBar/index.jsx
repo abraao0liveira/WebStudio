@@ -32,7 +32,12 @@ export function NavBar() {
     <NavBarContainer>
       <div className="navBar">
         <div className="logo">
+          <div className="visivel">
           <Intersect size={38} />
+          </div>
+          <div className="ghost">
+          <Intersect size={60} />
+          </div>
           <h1><strong>Web</strong>Studio</h1>
         </div>
         <div className="navBarMenu">

@@ -23,6 +23,10 @@ export const NavBarContainer = styled.header`
         color: ${(props) => props.theme['green-600']};
       }
     }
+    
+  }
+  .ghost{
+    display: none;
   }
   .navBarMenu {
     width: 80%;
@@ -74,4 +78,33 @@ export const NavBarContainer = styled.header`
       align-items: center;
       justify-content: center;
     }
+
+    @media screen and (max-width: 734px){
+      height: auto;
+      .navBar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+      }
+      .logo {
+        padding-right: 0;
+        margin: 0;
+
+        h1{
+          font-size: 3.4rem;
+        }
+      }
+      .ghost{
+        display: block;
+      }
+      .visivel{
+        display: none;
+      }
+      .navBarMenu {
+        display: none;
+      }
+    }
+
 `
