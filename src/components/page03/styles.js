@@ -41,4 +41,23 @@ export const Page03Container = styled.div`
       }
     }
   }
+  @media screen and (max-width: 734px){
+    height: auto;
+    h1{
+      margin-top: 20px;
+      font-size: 1.6rem;
+      text-align: center;
+    }
+    .webSites{
+      .webSite{
+        width: 16rem;
+        height: 9rem;
+        margin: 0.5rem;
+        img{
+          width: 70px;
+          height: 70px;
+        }
+      }
+    }
+  }
 `
