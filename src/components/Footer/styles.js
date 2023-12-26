@@ -64,6 +64,9 @@ export const FooterContainer = styled.div`
     .copy {
       margin-top: 1.5rem;
     }
+    .copyGhost{
+      display: none;
+    }
 
     .form {
       h1 {
@@ -114,6 +117,52 @@ export const FooterContainer = styled.div`
         outline: none;
         background-color: ${(props) => props.theme["gray-600"]};
       }
+    }
+  }
+  @media screen and (max-width: 734px){
+    height: auto;
+    .box{
+      flex-direction: column;
+      .logo{
+        display: flex;
+        justify-content: center;
+        
+        h1{
+          font-size: 1.6rem;
+        }
+      }
+      .socialMedia{
+        margin-top: 10px;
+        h2{
+          font-size: 1.2rem;
+          margin-bottom: 5px;
+        }
+      }
+      .form{
+        h1{
+          margin-top: 20px;
+          margin-bottom: 10px;
+        }
+        .form input,
+        .form textarea {
+          width: 100%;
+        }
+      }
+      .copy {
+      display: none;
+      }
+      .copyGhost{
+        display: flex;
+        margin: auto;
+        margin-top: 20px;
+        font-size: 0.8rem;
+      }
+      .arrow{
+        margin: auto;
+        margin-top: 20px;
+      }
+      
+      
     }
   }
 `
