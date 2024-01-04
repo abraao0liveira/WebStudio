@@ -76,8 +76,9 @@ export const Page01Container = styled.div`
     }
     .image {
       width: 100%;
+      overflow-x: hidden;
       .movie {
-        width: 100%;
+        width: 38rem;
       }
     }
     #banner {
@@ -85,26 +86,7 @@ export const Page01Container = styled.div`
       display: block;
     }
     .BannerInspiracao {
-      width: 80%;
-      margin: 10px;
-      padding: 12px;
-      margin: auto;
-      margin-top: 10px;
-      border-radius: 25px;
-      background-color: ${(props) => props.theme['gray-800']};
-      h1 {
-        font-size: 1.18rem;
-        display: flex;
-        margin: center;
-        align-items: center;
-        justify-content: center;
-        color: ${(props) => props.theme['white']};
-      }
-      p {
-        font-size: 0.95rem;
-        margin: 0.5rem 0rem 0.75rem 0rem;
-        color: ${(props) => props.theme['white']};
-      }
+      display: none;
     }
   }
 `
