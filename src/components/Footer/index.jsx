@@ -38,6 +38,7 @@ export function Footer() {
             </button>
           </form>
         </div>
+        
         <div className="copyGhost">
             <p>&copy; 2023 WebStudio. Todos os direitos reservados.</p>
         </div>

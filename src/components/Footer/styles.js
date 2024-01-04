@@ -121,26 +121,21 @@ export const FooterContainer = styled.div`
   }
   @media screen and (max-width: 734px){
     height: auto;
+    margin-top: 2.75rem;
     .box{
       flex-direction: column;
       .logo{
-        display: flex;
-        justify-content: center;
-        
-        h1{
-          font-size: 1.6rem;
-        }
+        display: none;
       }
       .socialMedia{
-        margin-top: 10px;
+        margin-top: 8px;
         h2{
-          font-size: 1.2rem;
-          margin-bottom: 5px;
+          display: none;
         }
       }
       .form{
         h1{
-          margin-top: 20px;
+          margin-top: 15px;
           margin-bottom: 10px;
         }
         .form input,
@@ -149,7 +144,7 @@ export const FooterContainer = styled.div`
         }
       }
       .copy {
-      display: none;
+        display: none;
       }
       .copyGhost{
         display: flex;
@@ -161,8 +156,6 @@ export const FooterContainer = styled.div`
         margin: auto;
         margin-top: 20px;
       }
-      
-      
     }
   }
 `
