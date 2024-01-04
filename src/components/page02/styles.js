@@ -73,13 +73,14 @@ export const Page02Container = styled.div`
 
   @media screen and (max-width: 734px){
     height: auto;
-
+    padding-top: 50px;
     h1{
       margin-top: 20px;
       font-size: 1.6rem;
       text-align: center;
-
+     
     }
+  
     h3{
       width: 90%;
       font-size: 1rem;
