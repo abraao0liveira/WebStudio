@@ -89,7 +89,7 @@ export const NavBarContainer = styled.header`
         width: 100%;
       }
       .logo {
-        padding-top: 60px;
+        padding-top: 46px;
         padding-right: 0;
         margin: 0;
 
