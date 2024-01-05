@@ -17,6 +17,9 @@ export const Page02Container = styled.div`
     font-weight: 700;
     margin-bottom: 1rem;
   }
+  hr {
+    display: none;
+  }
   h3 {
     width: 65%;
     font-size: 1.2rem;
@@ -76,11 +79,19 @@ export const Page02Container = styled.div`
     padding-top: 50px;
     h1{
       margin-top: 20px;
-      font-size: 1.6rem;
+      font-size: 2.5rem;
       text-align: center;
-     
     }
-  
+    hr{
+      display: block;
+      width: 55%;
+      height: 4px;
+      margin: 28px auto;
+      margin-top: -10px;
+      background-color: ${(props) => props.theme['green-200']};
+      border: none;
+      border-radius: 5px;
+    }
     h3{
       width: 90%;
       font-size: 1rem;
@@ -96,8 +107,12 @@ export const Page02Container = styled.div`
         width: 80%;
         margin: 10px;
       }
-      }
-      
     }
-  
+  }
+
+  @media screen and (max-width: 360px){
+    h1 {
+      font-size: 2.15rem;
+    }
+  }
 `

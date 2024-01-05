@@ -6,6 +6,7 @@ export function Page02() {
     <Page02Container>
       <section id="models">
         <h1>Escolha o Modelo de Site Ideal</h1>
+        <hr />
         <h3>A <strong>presença digital</strong> de uma empresa é significativamente fortalecida por meio de um website, que estabelece uma base sólida para o êxito de sua presença online.</h3>
 
         <div className="boxes">
