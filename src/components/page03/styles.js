@@ -11,6 +11,9 @@ export const Page03Container = styled.div`
     align-items: center;
     font-size: 3rem;
   }
+  hr{
+    display: none;
+  }
   .webSites {
     display: flex;
     justify-content: center;
@@ -45,8 +48,17 @@ export const Page03Container = styled.div`
     height: auto;
     h1{
       margin-top: 20px;
-      font-size: 1.6rem;
+      font-size: 2.5rem;
       text-align: center;
+    }
+    hr{
+      display: block;
+      width: 55%;
+      height: 4px;
+      margin: 18px auto;
+      background-color: ${(props) => props.theme['green-200']};
+      border: none;
+      border-radius: 5px;
     }
     .webSites{
       .webSite{
@@ -57,7 +69,15 @@ export const Page03Container = styled.div`
           width: 70px;
           height: 70px;
         }
+        h2{
+          font-size: 1.2rem;
+        }
       }
+    }
+  }
+  @media screen and (max-width: 360px){
+    h1 {
+      font-size: 2.15rem;
     }
   }
 `

@@ -7,7 +7,8 @@ export function Page03() {
   return (
     <Page03Container>
       <section id="projects">
-        <h1>Projetos Desenvolvidos</h1>
+        <h1>Explore Projetos Inovadores</h1>
+        <hr />
         <div className="webSites">
           <div className="webSite">
             <a href="https://igrejaemmaracanau.com.br/" rel="noreferrer" target="_blank">
