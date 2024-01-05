@@ -14,7 +14,7 @@ export function NavBar() {
 
       if (element) {
         const rect = element.getBoundingClientRect();
-        const targetOffset = rect.top + window.pageYOffset - headerHeight + 10
+        const targetOffset = rect.top + window.pageYOffset - headerHeight + 12
 
         window.scrollTo({
           behavior: 'smooth',
