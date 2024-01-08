@@ -15,7 +15,7 @@ export function Footer() {
           <div className="socialMedia">
             <h2>Siga-nos</h2>
             <a href="/"><InstagramLogo size={30} /></a>
-            <a href="/"><WhatsappLogo size={30} /></a>
+            <a href="http://wa.me//5585992424072?text= Olá! Quero fazer uma cotação." target="_blank"><WhatsappLogo size={30} /></a>
           </div>
           
           <div className="copy">
