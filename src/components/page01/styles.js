@@ -64,6 +64,26 @@ export const Page01Container = styled.div`
       color: ${(props) => props.theme['white']};
     }
   }
+  .buttonWpp {
+    display: none;
+    justify-content: center;
+    button {
+      margin-top: 1.5rem;
+      padding: 10px 12px;
+      background-color: ${(props) => props.theme['gray-800']};
+      border-radius: 15px;
+      border: none;
+      cursor: pointer;
+      box-shadow: 0px 0px 12px 0px rgba(255,255,255,0.3);
+      a {
+        font-weight: bold;
+        font-size: 1.075rem;
+        padding: 10px 20px;
+        text-decoration: none;
+        color: ${(props) => props.theme['white']};
+      }
+    }
+  }
 
   @media screen and (max-width: 734px){
     height: auto;
@@ -87,6 +107,9 @@ export const Page01Container = styled.div`
     }
     .BannerInspiracao {
       display: none;
+    }
+    .buttonWpp {
+      display: flex;
     }
   }
 `

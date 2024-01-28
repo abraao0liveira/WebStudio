@@ -28,6 +28,9 @@ export function Page01() {
           </div>
         </div>
       </section>
+      <div className="buttonWpp">
+        <button><a href="http://wa.me//5585992424072?text= Olá! Tenho interrese em um modelo de site." rel="noreferrer" target="_blank">Saiba mais</a></button>
+      </div>
     </Page01Container>
   )
 }

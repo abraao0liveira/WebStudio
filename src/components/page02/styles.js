@@ -78,7 +78,6 @@ export const Page02Container = styled.div`
     height: auto;
     padding-top: 50px;
     h1{
-      margin-top: 20px;
       font-size: 2.5rem;
       text-align: center;
     }
